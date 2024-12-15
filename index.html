@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculeter</title>
+    <link rel="stylesheet" href="CC.css">
+    <script src="Calc.js"></script>
+</head>
+<body>
+    <div class="Calc">
+    
+        <input id="output" type="text" >
+       
+        <button class="row" onclick="AC()">AC</button>
+        <div>
+            <button class="row" onclick="btnclick(7)">7</button>
+            <button class="row" onclick="btnclick(8)">8</button>
+            <button class="row" onclick="btnclick(9)">9</button>
+            <button class="row" onclick="btnclick('/')">/</button>
+        </div>
+
+        <div>
+            <button class="row" onclick="btnclick(4)">4</button>
+            <button class="row" onclick="btnclick(5)">5</button>
+            <button class="row" onclick="btnclick(6)">6</button>
+            <button class="row" onclick="btnclick('*')">x</button>
+        </div>
+
+        <div>
+            <button class="row" onclick="btnclick(1)">1</button>
+            <button class="row" onclick="btnclick(2)">2</button>
+            <button class="row" onclick="btnclick(3)">3</button>
+            <button class="row" onclick="btnclick('-')">-</button>
+        </div>
+
+        <div>
+            <button class="row" onclick="btnclick('.')">.</button>
+            <button class="row" onclick="btnclick(0)">0</button>
+            <button class="row" onclick="equelbtn()">=</button>
+            <button class="row" onclick="btnclick('+')">+</button>
+        </div>
+    </div>
+</body>
+</html>
